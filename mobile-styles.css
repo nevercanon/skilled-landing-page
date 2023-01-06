@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+:root {
+    --DARK-PERIWINKLE: #666ca3;
+    --DARK-BLUE: #13183f;
+    --GRAY: #83869a;
+    --HOT-PINK: #f74780;
+    --LIGHT-PINK: #ffa7c3;
+    --WHITE: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--DARK-BLUE);
+    background: linear-gradient(var(--WHITE) 50%, #eff1fe);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.logo {
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+header a {
+    color: var(--WHITE);
+}
+
+.header-button {
+    background-color: var(--DARK-BLUE);
+    border: none;
+    padding: 1rem 1.75rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border-radius: 50px;
+
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.site-description {
+    color: var(--GRAY);
+    line-height: 1.625;
+    margin-bottom: 1.5rem;
+}
+.body-button a {
+    color: var(--WHITE);
+}
+
+.body-button {
+    background: linear-gradient(#ff6f48, #f02aa6);
+    display: block;
+    padding: 1.1rem 2.4rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-family: inherit;
+    margin-bottom: 2rem;
+}
+
+.hero-mobile {
+    width: 100%;
+}
+
+h2 {
+    color: var(--WHITE);
+    background: linear-gradient(#ff6f48, #f02aa6);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 1.5rem;
+    position: relative;
+    background-color: var(--WHITE);
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+h3 {
+    font-weight: 800;
+    margin-bottom: 1rem;
+    margin-top: 1.75rem;
+}
+
+.course-description {
+    color: var(--GRAY);
+    line-height: 1.5;
+    font-size: 0.9rem;
+    margin-bottom: 1.75rem;
+}
+
+section img {
+    position: absolute;
+    top: -1.75rem;
+}
+
+section a {
+    color: var(--HOT-PINK);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: var(--DARK-BLUE);
+    width: 100%;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-button {
+   padding: 1rem 1.75rem;
+   background: linear-gradient(#4851ff, #f02aa6);
+   border: none;
+   border-radius: 50px;
+   font-size: 1rem;
+}
+
+footer a {
+    color: var(--WHITE);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.hero-tablet, .hero-desktop {
+    display: none;
+}

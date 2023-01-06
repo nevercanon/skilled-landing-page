@@ -1,0 +1,65 @@
+@media screen and (min-width: 48rem) {
+    body {
+        background: linear-gradient(var(--WHITE) 40%, #eff1fe);
+    }
+    main {
+        padding: 1rem 3rem;
+        overflow: hidden;
+    }
+
+    header {
+        margin-bottom: 0;
+        padding: 1rem 3rem;
+    }
+
+    .first {
+        width: 12.5%;
+    }
+
+    .top-section {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .top-text {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-column: 1 / 2;
+    }
+
+    .hero-tablet {
+        display: block;
+        width: 250%;
+        margin-top: -10rem;
+        margin-left: -4rem;
+    }
+
+    .hero-mobile {
+        display: none;
+    }
+
+    .body-button {
+        width: 45%;
+    }
+
+    .second-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.15rem 0.5rem;
+    }
+
+    section {
+        margin: none;
+    }
+
+    h2 {
+        padding-top: 4rem;    
+    }
+
+    .footer {
+        width: 10%;
+    }
+}
